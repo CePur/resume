@@ -55,4 +55,4 @@ Language Skills
 
 Skills
 ------
-Familiarity with ***.​Net Core, C#, Asp​, Entity Framework, Ado, T-Sql, Java, MsSql, MySql, Ms Access, C, C++, Html, Javascript, Css, Azure Ml***
+Familiarity with ***.​Net Core, C#, Asp, Entity Framework, Ado, T-Sql, Java, MsSql, MySql, Ms Access, C, C++, Html, Javascript, Css, Azure Ml***
