@@ -12,3 +12,24 @@ jobs:
         uses: docker://pandoc/core:2.9
         with:
           args: "-o index.html -c index.css resume.md -s --title=\"Cenk Pürtaş\""
+      - name: Upload
+        run: |
+          # configure git
+          git config --global user.name "CePur"
+          git config --global user.email "36715887+CePur@users.noreply.github.com"
+
+          # setup ssh
+          mkdir ~/.ssh
+          chmod 700 ~/.ssh
+          echo "$DEPLOY_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          git config --global core.sshCommand "ssh -i ~/.ssh/id_ed25519 -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no"
+
+          git clone --depth=1 --branch gh-pages git@github.com:CePur/resume.git "$GITHUB_WORKSPACE/deploy"          
+          cp -f index.html "$GITHUB_WORKSPACE/deploy/index.html"
+          cd "$GITHUB_WORKSPACE/deploy"
+          git add index.html
+          git commit -m "[github actions] deploy"
+          git push
+        env:
+          DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
