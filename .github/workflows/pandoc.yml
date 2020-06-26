@@ -6,6 +6,9 @@ jobs:
   convert_via_pandoc:
     runs-on: ubuntu-18.04
     steps:
+      - name: Checkout
+        uses: actions/checkout@v2.3.1
+      - name: Pandoc
       - uses: docker://pandoc/core:2.9
         with:
           args: "-o index.html -c index.css resume.md -s --title=\"Cenk Pürtaş\""
