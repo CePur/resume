@@ -18,7 +18,7 @@ jobs:
       - name: Convert to pdf
         run: |
           sudo apt-get install gdebi-core
-          sudo gdebi --non-interactive wkhtmltox_0.12.6-1.bionic_amd64.deb
+          sudo gdebi --non-interactive wkhtmltox_0.12.5-1.bionic_amd64.deb
           wkhtmltopdf --enable-local-file-access --viewport-size 1280x1024 -L 0mm -R 0mm -T 0mm -B 0mm index.html resume.pdf
              
       - name: Upload
