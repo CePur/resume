@@ -1,4 +1,4 @@
-name: Simple Usage
+name: Automate pages&pdf
 
 on: push
 
@@ -12,6 +12,11 @@ jobs:
         uses: docker://pandoc/core:2.9
         with:
           args: "-o index.html -c index.css resume.md -s --title=\"Cenk Pürtaş\""
+      - name: Convert to pdf
+        run: |
+          sudo apt-get install xvfb libfontconfig wkhtmltopdf
+          wkhtmltopdf --enable-local-file-access --viewport-size 1280x1024 -L 0mm -R 0mm -T 0mm -B 0mm index.html resume.pdf
+             
       - name: Upload
         run: |
           # configure git
@@ -27,8 +32,9 @@ jobs:
 
           git clone --depth=1 --branch gh-pages git@github.com:cepur/resume.git "$GITHUB_WORKSPACE/deploy"          
           cp -f index.html "$GITHUB_WORKSPACE/deploy/index.html"
+          cp -f resume.pdf "$GITHUB_WORKSPACE/deploy/resume.pdf"
           cd "$GITHUB_WORKSPACE/deploy"
-          git add index.html
+          git add index.html resume.pdf
           git commit -m "[github actions] deploy"
           git push
         env:
