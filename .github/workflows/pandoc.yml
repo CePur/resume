@@ -21,6 +21,7 @@ jobs:
           sudo apt -y install wget
           wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.bionic_amd64.deb
           sudo apt install -f ./wkhtmltox_0.12.5-1.bionic_amd64.deb
+          
           wkhtmltopdf --enable-local-file-access --viewport-size 1280x1024 -L 0mm -R 0mm -T 0mm -B 0mm index.html resume.pdf
              
       - name: Upload
@@ -35,12 +36,13 @@ jobs:
           echo "$DEPLOY_KEY" > ~/.ssh/id_ed25519
           chmod 600 ~/.ssh/id_ed25519
           git config --global core.sshCommand "ssh -i ~/.ssh/id_ed25519 -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no"
-
+          
+          # Commit changes to pages branch
           git clone --depth=1 --branch gh-pages git@github.com:cepur/resume.git "$GITHUB_WORKSPACE/deploy"          
           cp -f index.html "$GITHUB_WORKSPACE/deploy/index.html"
           cp -f resume.pdf "$GITHUB_WORKSPACE/deploy/resume.pdf"
           cd "$GITHUB_WORKSPACE/deploy"
-          git add index.html resume.pdf
+          git add index.html resume.pdf index.css
           git commit -m "[github actions] deploy"
           git push
         env:
