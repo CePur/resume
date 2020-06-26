@@ -42,7 +42,7 @@ jobs:
           cp -f index.html "$GITHUB_WORKSPACE/deploy/index.html"
           cp -f resume.pdf "$GITHUB_WORKSPACE/deploy/resume.pdf"
           cp -f resume.pdf "$GITHUB_WORKSPACE/deploy/index.css"
-          cp -R /img/* $GITHUB_WORKSPACE/deploy/img
+          cp -R ./img/* $GITHUB_WORKSPACE/deploy/img
           cd "$GITHUB_WORKSPACE/deploy"
           git add index.html resume.pdf index.css ./img
           git commit -m "[github actions] deploy"
