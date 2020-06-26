@@ -17,8 +17,9 @@ jobs:
           args: "-o index.html -c index.css resume.md -s --title=\"Cenk Pürtaş\""
       - name: Convert to pdf
         run: |
-          sudo apt-get install gdebi-core
-          sudo gdebi --non-interactive wkhtmltox_0.12.5-1.bionic_amd64.deb
+          wget https://github.com/wkhtmltopdf/wkhtmltopdf/archive/0.12.6.tar.gz
+          tar vxf wkhtmltox-0.12.3_linux-generic-amd64.tar.xz 
+          cp wkhtmltox/bin/wk* /usr/local/bin/
           wkhtmltopdf --enable-local-file-access --viewport-size 1280x1024 -L 0mm -R 0mm -T 0mm -B 0mm index.html resume.pdf
              
       - name: Upload
