@@ -21,6 +21,7 @@ jobs:
           sudo apt install wget xfonts-75dpi
           wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.bionic_amd64.deb
           sudo dpkg -i wkhtmltox_0.12.5-1.bionic_amd64.deb
+          sudo apt -f install
           wkhtmltopdf --enable-local-file-access --viewport-size 1280x1024 -L 0mm -R 0mm -T 0mm -B 0mm index.html resume.pdf
              
       - name: Upload
