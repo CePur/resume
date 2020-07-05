@@ -32,6 +32,8 @@
 * [Authentication and Authorization in ASP.NET Core](https://www.pluralsight.com/courses/authentication-authorization-aspnet-core), by *Roland Guijt*
 * [Getting Started with ASP.NET Core SignalR](https://www.pluralsight.com/courses/aspdotnet-core-signalr-getting-started), by *Roland Guijt*
 
+##### API Development in ASP.NET Core Path
+* [Designing RESTful Web APIs](https://www.pluralsight.com/courses/designing-restful-web-apis), by *Shawn Wildermuth*
 
 ##### Entity Framework Core Path
 * [Entity Framework Core 2: Getting Started](https://www.pluralsight.com/courses/entity-framework-core-2-getting-started), by *Julie Lerman*
