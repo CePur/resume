@@ -34,6 +34,7 @@
 
 ##### API Development in ASP.NET Core Path
 * [Designing RESTful Web APIs](https://www.pluralsight.com/courses/designing-restful-web-apis), by *Shawn Wildermuth*
+* [Building a RESTful API with ASP.NET Core 3](https://www.pluralsight.com/courses/asp-dot-net-core-3-restful-api-building), by *Kevin Dockx*
 
 ##### Entity Framework Core Path
 * [Entity Framework Core 2: Getting Started](https://www.pluralsight.com/courses/entity-framework-core-2-getting-started), by *Julie Lerman*
