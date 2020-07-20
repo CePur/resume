@@ -2,7 +2,7 @@ Cenk Pürtaş  ![qrcode](img/qr.png)
 ======
 
 
-##### [ cenkpurtas@gmail.com ] . [ +90 555 716 2003 ] . [İzmit/Kocaeli] . [ [ github.com/cepur](https://github.com/cepur) ]  
+##### [ cenkpurtas@gmail.com ] . [ +90 555 716 2003 ] . [ İzmit/Kocaeli ] . [ [ github.com/cepur](https://github.com/cepur) ]  
 
 Personal Information
 ---------
@@ -55,4 +55,4 @@ Language Skills
 
 Skills
 ------
-Familiarity with ***.​Net Core, C#, Asp, Entity Framework, Ado, T-Sql, Java, MsSql, MySql, Ms Access, C, C++, Html, Javascript, Css, Azure Ml***
+Familiarity with ***.​Net Core, C#, Asp, Entity Framework, Ado, T-Sql, Html, Javascript, Css, MsSql, MySql, Ms Access, Java, C, C++, Azure Ml***
