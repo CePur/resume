@@ -68,6 +68,9 @@
 ### Microsoft Learn <img src="img/microsoft.png" width="22">
 * [Miscellaneous Modules & Paths](https://docs.microsoft.com/en-us/users/cepur-4055/)
 
+### Oracle University <img src="https://2.bp.blogspot.com/-svM3BtZiMnw/WzXu3F1NqII/AAAAAAAAABg/gUTdLo2qj5Y4E92AZXvQ4NCodD7PvNw8wCLcBGAs/s320/Oracle-Logo-Vector.png" width="30">
+* [Oracle Database Explorer](https://learn.oracle.com/ols/learning-path/oracle-database-explorer/38560/79873)
+
 
 ### Other Platforms <img src="img/github.png" width="25">
 * [Interneting Is Hard](https://www.internetingishard.com/), by *Oliver James*
