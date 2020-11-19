@@ -61,6 +61,7 @@
 * [Code School - Mastering GitHub](https://www.pluralsight.com/courses/code-school-mastering-github), by *Peter Bell*
 * [Building Your First API with ASP.NET Core](https://www.pluralsight.com/courses/asp-dotnet-core-api-building-first), by *Kevin Dockx*
 * [Practical Data Modeling With C# and SQL Server](https://www.pluralsight.com/courses/practical-data-modeling-csharp-sql-server), by *Jason Sauer*
+* [The .NET Ecosystem - The Big Picture](https://www.pluralsight.com/courses/dotnet-ecosystem-big-picture), by *Barry Luijbregts*
 
 
 ### freeCodeCamp <img src="img/freecodecamp.png" width="25">
