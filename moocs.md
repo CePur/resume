@@ -40,6 +40,8 @@
 * [Entity Framework Core 2: Getting Started](https://www.pluralsight.com/courses/entity-framework-core-2-getting-started), by *Julie Lerman*
 * [Entity Framework Core 2: Mappings](https://www.pluralsight.com/courses/e-f-core-2-beyond-the-basics-mappings), by *Julie Lerman*
 
+##### ​.​NET Base Class Library Path
+* [Using HttpClient to Consume APIs in .NET Core](https://www.pluralsight.com/courses/httpclient-consume-apis-dotnet-core), by *Kevin Dockx*
 
 ##### Visual Studio 2019 Path
 * [Using Git for Source Control in Visual Studio 2019](https://www.pluralsight.com/courses/using-git-source-control-visual-studio), by *Thomas Claudius Huber*
