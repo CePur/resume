@@ -47,6 +47,7 @@
 * [Visual Studio 2019 Getting Started](https://www.pluralsight.com/courses/visual-studio-2019-getting-started), by *Kate Gregory*
 * [Using Git for Source Control in Visual Studio 2019](https://www.pluralsight.com/courses/using-git-source-control-visual-studio), by *Thomas Claudius Huber*
 * [Visual Studio 2019 - Debugging](https://www.pluralsight.com/courses/debugging-visual-studio-2019), by *Alex Wolf*
+* [Code Analysis in Visual Studio 2019](https://www.pluralsight.com/courses/visual-studio-2019-code-analysis), by *Alex Wolf*
 
 ##### Querying Data with T-SQL from SQL Server Path
 * [Querying Data Using T-SQL](https://www.pluralsight.com/courses/querying-data-using-tsql), by *Ami Levin*
