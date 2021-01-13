@@ -51,6 +51,7 @@
 
 ##### Querying Data with T-SQL from SQL Server Path
 * [Querying Data Using T-SQL](https://www.pluralsight.com/courses/querying-data-using-tsql), by *Ami Levin*
+* [Combining and Filtering Data with T-SQL](https://www.pluralsight.com/courses/combining-filtering-data-tsql), by *Tamara Pattinson*
 
 ##### Html 5 Path
 * [HTML, CSS, and JavaScript: The Big Picture](https://www.pluralsight.com/courses/html-css-javascript-big-picture), by *Barry Luijbregts*
