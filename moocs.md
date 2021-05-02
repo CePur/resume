@@ -31,6 +31,7 @@
 * [ASP.NET Core 3.0 - The MVC Request Life Cycle](https://www.pluralsight.com/courses/aspnet-core-3-mvc-request-life-cycle), by *Alex Wolf*
 * [Authentication and Authorization in ASP.NET Core](https://www.pluralsight.com/courses/authentication-authorization-aspnet-core), by *Roland Guijt*
 * [Getting Started with ASP.NET Core SignalR](https://www.pluralsight.com/courses/aspdotnet-core-signalr-getting-started), by *Roland Guijt*
+* [Effective Logging in ASP.NET Core](https://www.pluralsight.com/courses/asp-dotnet-core-effective-logging), by *Erik Dahl*
 
 ##### API Development in ASP.NET Core Path
 * [Designing RESTful Web APIs](https://www.pluralsight.com/courses/designing-restful-web-apis), by *Shawn Wildermuth*
