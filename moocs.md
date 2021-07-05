@@ -60,6 +60,9 @@
 * [HTML Fundamentals](https://www.pluralsight.com/courses/html-fundamentals), by *Matt Milner*
 * [HTML5 Fundamentals](https://www.pluralsight.com/courses/html5-fundamentals), by *Craig Shoemaker*
 
+##### Executive Briefing
+* [Agile & DevOps: Executive Briefing](https://www.pluralsight.com/courses/agile-devops-executive-briefing), by *Tiffany Willis*
+
 ##### Individual Courses
 * [GitHub Fundamentals](https://www.pluralsight.com/courses/github-fundamentals), by *Gill Cleeren*
 * [Code School - Git Real](https://www.pluralsight.com/courses/code-school-git-real), by *Gregg Pollack, Olivier Lacan*
